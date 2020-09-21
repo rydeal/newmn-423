@@ -1,0 +1,44 @@
+#forecastDay {
+  width: 20%;
+  margin: -10px 6%;
+  float: left;
+  background-color: $card-blue;
+  color: $site-white;
+  border: 2px solid $site-white;
+  clear: right;
+  font-size: 15px;
+
+  #dayHeader {
+    text-align: center;
+  }
+}
+
+.inputBox {
+  position: absolute;
+  bottom: 2%;
+  right: 35%;
+  width: 500px;
+  button {
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px;
+    background-color: $site-black;
+    color: white;
+  }
+
+  input {
+    border-radius: 5px;
+    width: 50%;
+    padding: 8px 20px;
+    font-size: 20px;
+  }
+}
+
+#currentDay {
+  font-size: 12px;
+  text-align: center;
+
+  .currentImg {
+    text-align: center;
+  }
+}

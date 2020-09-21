@@ -1,0 +1,33 @@
+nav {
+  right: 10px;
+  top: -25px;
+  position: absolute;
+  margin-bottom: 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    text-transform: lowercase;
+    color: white;
+  }
+
+  a:hover {
+    color: $weather-green;
+  }
+}
+
+img {
+  width: 75px;
+  left: 10px;
+  margin-left: 10px;
+}
+
+#logoText {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}

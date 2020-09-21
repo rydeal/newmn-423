@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #1c273b;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  right: 10px;
+  top: -25px;
+  position: absolute;
+  margin-bottom: 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 18px;
+  text-transform: lowercase;
+  color: white;
+}
+nav a:hover {
+  color: #71eeb8;
+}
+
+img {
+  width: 75px;
+  left: 10px;
+  margin-left: 10px;
+}
+
+#logoText {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#forecastDay {
+  width: 20%;
+  margin: -10px 6%;
+  float: left;
+  background-color: #0077be;
+  color: #fff;
+  border: 2px solid #fff;
+  clear: right;
+  font-size: 15px;
+}
+#forecastDay #dayHeader {
+  text-align: center;
+}
+
+.inputBox {
+  position: absolute;
+  bottom: 2%;
+  right: 35%;
+  width: 500px;
+}
+.inputBox button {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 8px;
+  background-color: #000;
+  color: white;
+}
+.inputBox input {
+  border-radius: 5px;
+  width: 50%;
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+#currentDay {
+  font-size: 12px;
+  text-align: center;
+}
+#currentDay .currentImg {
+  text-align: center;
+}
