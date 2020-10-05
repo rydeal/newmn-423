@@ -1,0 +1,47 @@
+#formContent {
+  height: 500px;
+  width: 100%;
+
+  align-content: center;
+  margin-left: 38%;
+  input {
+    width: 20%;
+    clear: right;
+    display: block;
+    margin: 10px 0px;
+    text-align: center;
+  }
+}
+
+#content {
+  height: 500px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+button {
+  background-color: $button-red;
+  color: $site-white;
+  padding: 15px 36px;
+  font-size: 15px;
+}
+
+#studentDisplay {
+  width: 20%;
+  float: left;
+  display: block;
+  margin-right: 2.5%;
+  margin-bottom: 2.5%;
+  height: 450px;
+  border: 2px solid $site-white;
+  border-radius: 10px;
+  text-align: center;
+  background-color: $button-red;
+
+  p {
+    padding: 1.5px;
+  }
+}

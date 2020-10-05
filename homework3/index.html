@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryan Deal | Homework 3</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap"
+    rel="stylesheet"
+  />
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <body>
+    <h1>Homework 3: Local Storage with Student Information</h1>
+    <div id="explanationContent">
+      <h2>
+        Input student details with the input boxes and then press 'Add Student'
+        to enter it into the database
+      </h2>
+      <h2>
+        Press 'Display Student Details' to see a record of all students in the
+        database currently
+      </h2>
+    </div>
+    <div id="formContent">
+      <form id="studentInfo">
+        <input
+          name="firstName"
+          placeholder="First Name"
+          id="studentFirst"
+          type="text"
+        />
+        <input
+          name="lastName"
+          placeholder="Last Name"
+          id="studentLast"
+          type="text"
+        />
+        <input name="age" placeholder="Age" id="studentAge" type="text" />
+        <input
+          name="phone"
+          placeholder="Phone Number"
+          id="studentPhone"
+          type="text"
+        />
+        <input
+          name="email"
+          placeholder="Email Address"
+          id="studentEmail"
+          type="text"
+        />
+        <input
+          name="address"
+          placeholder="Address"
+          id="studentAddress"
+          type="text"
+        />
+      </form>
+      <input
+        name="classes"
+        placeholder="Classes"
+        id="studentClasses"
+        type="text"
+      />
+      <button id="getInput" onclick="getField()">Add Student</button>
+      <button id="displayInput" onclick="displayStudents()">
+        Display Student Data
+      </button>
+    </div>
+    <div id="content"></div>
+    <script src="lib/jquery-3.5.1.min.js"></script>
+    <script src="app/studentData.js"></script>
+  </body>
+</html>
