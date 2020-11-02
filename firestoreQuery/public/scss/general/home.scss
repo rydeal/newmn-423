@@ -1,0 +1,27 @@
+#albumSpace {
+  width: 21%;
+  float: left;
+  //  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  img {
+    margin-top: 10px;
+  }
+
+  p {
+    margin-top: 20px;
+  }
+
+  .titleModify {
+    color: $site-red;
+  }
+}
+
+label {
+  margin-left: 20px;
+}
