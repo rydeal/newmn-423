@@ -13,3 +13,11 @@
 
 [Here is my Firebase Deploy Link.](https://newmn-423-deal.web.app/)
 https://newmn-423-deal.web.app/
+
+## Languages Used
+
+- HTML
+- CSS
+- SASS
+- JavaScript
+- jQuery
