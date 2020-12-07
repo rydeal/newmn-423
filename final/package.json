@@ -1,0 +1,15 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve-local": "firebase serve --only hosting",
+    "deploy": "firebase deploy --except functions"
+  },
+  "author": "",
+  "license": "ISC"
+}

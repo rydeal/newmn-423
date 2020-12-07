@@ -1,0 +1,39 @@
+nav {
+  height: 10.93%;
+  background-color: #a0ccaf;
+  padding-top: 40px;
+  padding-left: 0.67%;
+
+  a {
+    color: #fff;
+  }
+
+  #home {
+    font-size: 1.6em;
+    text-decoration: none;
+  }
+
+  button {
+    width: 7.8125%;
+    height: 64.49%;
+    border-radius: 25px;
+    border: 5px solid #a0ccaf;
+    background-color: #a0bdcc;
+    color: #fff;
+    font-size: 1.6em;
+  }
+
+  input {
+    width: 61.76%;
+    height: 64.49%;
+    border-radius: 50px;
+    border: 5px solid #a0ccaf;
+    padding-left: 1%;
+
+    font-size: 1.38em;
+  }
+
+  ::placeholder {
+    color: #a0ccaf;
+  }
+}

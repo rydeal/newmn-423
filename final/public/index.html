@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NEWM-N 423 Final Project: Ryan Deal</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+  <body>
+    <nav>
+      <a id="home" href="#">AC:NH Recipes App</a>
+      <input class="searchBar" type="text" placeholder="Search here...">
+      <a id="list" href="#"><button class="navBtn">Your List</button></a>
+      <a id="signIn" href="#"><button class="navBtn signBtn">Sign In</button></a>
+      <a id="signUp" href="#"><button class="navBtn signBtn">Sign Up</button></a>
+    </nav>
+
+    <div id="app"></div>
+
+    <script defer src="/__/firebase/8.1.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.1.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/8.1.1/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/8.1.1/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+    <script src="lib/jquery-3.5.1.min.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>

@@ -1,5 +1,5 @@
 var apiKey = "467cf563786a4dfcb3435338202109";
-var forecastURL = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&days=3&q=`;
+var forecastURL = `https://api.weatherapi.com/v1/forecast.    ?key=${apiKey}&days=3&q=`;
 // Array for getting all forecast data into three days
 var forecast = {};
 

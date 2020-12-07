@@ -1,0 +1,51 @@
+#itemContainer {
+  margin-left: 4.51%;
+  margin-bottom: 50%;
+  clear: both;
+}
+
+#itemDiv {
+  width: 256px;
+  height: 256px;
+  background-color: #a0bdcc;
+  border-radius: 25px;
+  border: 5px solid #fff;
+  float: left;
+  margin: 1.5% 2.5%;
+
+  img {
+    margin: 0 auto;
+  }
+
+  .itemName {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 1.2em;
+  }
+}
+
+#itemPag {
+  display: inline-block;
+  margin-left: 7.2%;
+  a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+
+    .active {
+      background-color: #4caf50;
+      color: white;
+      border: 1px solid #4caf50;
+    }
+
+    a:hover:not(.active) {
+      background-color: #ddd;
+    }
+  }
+}
