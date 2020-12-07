@@ -13,10 +13,13 @@
 
 https://newmn-423-deal.web.app/
 
-### Languages Used
+### Languages and/or other Applications Used
 
 - HTML
-- CSS
-- SASS
-- JavaScript
-- jQuery
+- CSS/SASS: Styling navigation and item cards
+- JavaScript/jQuery: Functions to retrieve the recipes, display necessary information, and set up Firebase
+- Firebase: Web Hosting and database
+
+
+### Thank You
+Many thanks for the developers over at https://api.nookipedia.com/ for allowing me to use their API. I wished this version could have been better, but certain circumstances prevented that from happening, both in and out of my control.
