@@ -4,10 +4,10 @@
 
 ### Expected Features
 
-- Search through all Animal Crossing: New Horizons Recipes
+- Search through all Animal Crossing: New Horizons Recipes either through pagination or the search bar
 - View recipe details
 - Add recipes to personalized lists to expedite material collection (account required)
-- Filter recipes based on material type
+- Filter recipes based on material type categories
 
 ### Firebase Deploy Link
 
